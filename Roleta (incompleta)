@@ -1,0 +1,24 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+
+	{ 	caracter S
+	  	caracter R
+	  	
+		u.sorteia(1, 6)
+		
+		
+escreva("Jogador1, pressione S para tentar a sorte \n")
+		escreva(" OU \n")
+		escreva("pressione R para girar o tambor e atirar \n")
+		leia(S)
+		escolha (S){
+
+			caso 'S':
+			
+		}
+	}
+}
