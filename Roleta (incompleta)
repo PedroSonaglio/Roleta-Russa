@@ -18,16 +18,19 @@ programa
 		
 			sorteia (1, 135)
 			
+			lembrete (vai ter 3 digitos e 5 opçoes)
 			
-			
-			
+			                                                                                                                          
+                                                                                                    
+                                                                                                    
+                                                                                                    
 			
 			
 			
 			
 			
 			}
-			senao{escreva("Você não apostou e não ficou viciado.")}
+			senao{escreva("Você não ficou viciado e não ficou com nome sujo no serasa. (!final secreto!)")}
 		
 	}
 }
