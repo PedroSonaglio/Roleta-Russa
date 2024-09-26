@@ -1,24 +1,33 @@
 programa
 {
-	inclua biblioteca Util
- --> u
 	
 	funcao inicio()
-
-	{ 	caracter S
-	  	caracter R
-	  	
-		u.sorteia(1, 6)
+	{
+		cadeia a = "a"
+		cadeia resposta
+		inteiro dinheiro = 1000
+		inteiro aposta
 		
+		escreva("!Bem Vindo ao Cassino! \n")
+		escreva("Pressione a para começar \n")
+		leia(resposta) 
+		se(resposta == "a")
+		{escreva("Você começou em um caça niquel com 1000 reais. \n")
+		escreva("vc deseja apostar quanto? ")
+		leia (aposta)
 		
-escreva("Jogador1, pressione S para tentar a sorte \n")
-		escreva(" OU \n")
-		escreva("pressione R para girar o tambor e atirar \n")
-		leia(S)
-		escolha (S){
-
-			caso 'S':
+			sorteia (1, 135)
 			
-		}
+			
+			
+			
+			
+			
+			
+			
+			
+			}
+			senao{escreva("Você não apostou e não ficou viciado.")}
+		
 	}
 }
